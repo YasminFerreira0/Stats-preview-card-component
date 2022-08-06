@@ -1,10 +1,56 @@
+/*
+font-family: 'Lexend Deca', sans-serif;*/
 
 
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.caixaTexto, .imagem {
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.caixaTexto {
+    background-color: hsl(244, 38%, 16%);
+    width: 30%;
+}
+.imagem {
+    width: 30%;
+}
+.imgDesktop {   
+    width: 100%;
+}
+
+h1, h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+}
+
+
+
+.imgDesktop {
+    filter: opacity(0.3) drop-shadow(0 0 0 purple);
+}
+
+
+.imgMobile {
+    display: none;
+}
 
 /*footer*/
 .attribution {
-    font-size: 11px; text-align: center; 
-}
-.attribution a { 
+    font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%); 
+    text-align: center;
+    bottom: 0;
 }
