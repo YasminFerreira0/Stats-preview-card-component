@@ -7,21 +7,22 @@ body {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 }
+.container {
+    display: inline-flex; 
+    justify-content: center;
+    margin: 5% 20% 5% 20%;
+}
+
 .caixaTexto, .imagem {
     display: inline-block;
-    margin: 0 auto;
-
 }
 .caixaTexto {
     background-color: hsl(244, 38%, 16%);
-    width: 30%;
+    width: 80%;
 }
-.imagem {
-    width: 30%;
-}
-.imgDesktop {   
-    width: 100%;
-}
+
+
+
 
 h1, h3 {
     color: hsl(0, 0%, 100%);
