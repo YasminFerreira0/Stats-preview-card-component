@@ -3,23 +3,27 @@ font-family: 'Lexend Deca', sans-serif;*/
 
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
     font-family: 'Inter', sans-serif;
 }
 .container {
     display: inline-flex; 
-    justify-content: center;
     margin: 5% 20% 5% 20%;
 }
 
 .caixaTexto, .imagem {
     display: inline-block;
+    /**vertical-align: middle;**/
 }
 .caixaTexto {
     background-color: hsl(244, 38%, 16%);
-    width: 80%;
 }
+
 
 
 
