@@ -9,25 +9,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5vw;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5vw;
+    margin: 9vw;
 }
 
 
 .caixaTexto {
     background-color: hsl(244, 38%, 16%);
-    padding: 30px;
-    width: 40vw;
+    padding: 40px;
+    width: 30vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .caixaTexto__dados {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
 }
 
 
@@ -37,6 +39,7 @@ h1, h3 {
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
 }
 
 .stat {
@@ -49,7 +52,9 @@ p {
     background-image: url(../Stats-preview-card-component/images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     filter: opacity(0.3) drop-shadow(0 0 0 purple);
-    width: 40vw;
+    width: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
